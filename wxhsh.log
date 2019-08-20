@@ -1,0 +1,27 @@
+2019-08-16 19:19:54.294  INFO 9288 --- [main] FinaApplication          : Starting FinaApplication on PC201901231050 with PID 9288 (G:\IdeaProjects\fina\target\classes started by Administrator in G:\IdeaProjects\fina)
+2019-08-16 19:19:54.297  INFO 9288 --- [main] FinaApplication          : The following profiles are active: dev
+2019-08-16 19:19:55.105  WARN 9288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[lanqiao.cn.fina]' package. Please check your configuration.
+2019-08-16 19:19:55.735  INFO 9288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-08-16 19:19:55.760  INFO 9288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 19:19:55.761  INFO 9288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 19:19:55.851  INFO 9288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 19:19:55.851  INFO 9288 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1507 ms
+2019-08-16 19:19:56.048  INFO 9288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 19:19:56.136  WARN 9288 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-08-16 19:19:56.617  INFO 9288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-08-16 19:19:56.620  INFO 9288 --- [main] FinaApplication          : Started FinaApplication in 2.776 seconds (JVM running for 3.521)
+2019-08-16 19:20:59.250  INFO 10136 --- [main] FinaApplication          : Starting FinaApplication on PC201901231050 with PID 10136 (G:\IdeaProjects\fina\target\classes started by Administrator in G:\IdeaProjects\fina)
+2019-08-16 19:20:59.253  INFO 10136 --- [main] FinaApplication          : The following profiles are active: dev
+2019-08-16 19:21:00.242  WARN 10136 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[lanqiao.cn.fina]' package. Please check your configuration.
+2019-08-16 19:21:00.961  INFO 10136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-08-16 19:21:00.981  INFO 10136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-16 19:21:00.982  INFO 10136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-16 19:21:01.063  INFO 10136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-16 19:21:01.063  INFO 10136 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1755 ms
+2019-08-16 19:21:01.256  INFO 10136 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 19:21:01.305  INFO 10136 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-16 19:21:01.576  INFO 10136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-08-16 19:21:01.579  INFO 10136 --- [main] FinaApplication          : Started FinaApplication in 2.81 seconds (JVM running for 3.753)
+2019-08-16 19:21:28.805  INFO 10136 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-16 19:21:28.806  INFO 10136 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-16 19:21:28.815  INFO 10136 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
