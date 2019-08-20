@@ -1,6 +1,18 @@
 package top.taru.information.entity;
 
+/**
+ * 歌曲实体
+ */
 public class Song {
+
+    private String songId;
+    private String songName;
+    private String songSonger;
+    private String songUploadUser;
+    private String songPhoto;
+    private String songPlace;
+    private String songTime;
+    private String songLrc;
     public String getSongId() {
         return songId;
     }
@@ -79,13 +91,5 @@ public class Song {
                 '}';
     }
 
-    private String songId;
-    private String songName;
-    private String songSonger;
-    private String songUploadUser;
-    private String songPhoto;
-    private String songPlace;
-    private String songTime;
-    private String songLrc;
 
 }
