@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间 是 包名加接口名-->
+<mapper namespace="top.taru.information.dao.SongDao">
+    <sql id="songColum" >
+          song_id  ,song_name  ,song_songer ,song_upload_user,
+          song_photo ,song_place ,song_time ,song_lrc
+    </sql>
+<insert id="postSong"  parameterType="top.taru.information.entity.Song">
+    insert into songs (<include refid="songColum"></include>) values(
+    #{songId,jdbcType=VARCHAR},#{songName,jdbcType=VARCHAR},
+    #{song_songer,jdbcType=VARCHAR},#{songUploadUser,jdbcType=VARCHAR},
+    #{songPhoto,jdbcType=VARCHAR},#{songPlace,jdbcType=VARCHAR},
+    #{songTime,jdbcType=VARCHAR},#{songLrc,jdbcType=VARCHAR})
+</insert>
+<!--     根据歌名模糊搜索歌曲-->
+    <select id="getSongsByName" parameterType="string" resultMap="">
+        select <include refid="songColum"></include>
+        from  songs where
+        <if test="songName!=null">
+            and song_name like '%${songName}%'
+        </if>
+    </select>
+<!--    根据歌手模糊查询 歌曲-->
+    <select id="getSongsBySonger" parameterType="string" resultMap="">
+        select <include refid="songColum"></include>
+        from  songs where
+        <if test="songer!=null">
+            and song_songer like '%${songer}%'
+        </if>
+    </select>
+</mapper>

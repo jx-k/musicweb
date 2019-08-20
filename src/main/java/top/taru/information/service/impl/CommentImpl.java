@@ -1,4 +1,7 @@
 package top.taru.information.service.impl;
 
-public class CommentImpl {
+import top.taru.information.service.CommentService;
+
+public class CommentImpl implements CommentService {
+
 }

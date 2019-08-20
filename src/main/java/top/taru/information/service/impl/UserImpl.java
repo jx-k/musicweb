@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserImpl implements UserService {
     @Autowired
-    UserDao userImpl;
+    UserDao userDao;
 
   public User userLogin(String username, String password){
-      return  userImpl.userLogin("","");
+      return  userDao.userLogin("","");
   };
 }

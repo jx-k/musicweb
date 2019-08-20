@@ -3,6 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--命名空间 是 包名加接口名-->
-<mapper namespace="lianqiao.cn.fina.dao.UserDao">
+<mapper namespace="top.taru.information.dao.UserDao">
 
+    <select id="userLogin" resultMap="">
+
+    </select>
 </mapper>
